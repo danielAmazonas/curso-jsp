@@ -8,8 +8,7 @@ Estas instruções ajudarão você a instalar o aplicativo em sua máquina local
 
 #### Pré-requisitos
 
-* Certifique-se de ter o Git, Tomcat, PostgreSQL, Java e Eclipse instalados, antes de continuar.
-* As versões são:
+* Certifique-se de ter o Git, Tomcat, PostgreSQL, Java e Eclipse instalados, antes de continuar. Seguem as versões utilizadas.
 - Tomcat 8.0.53
 - PostgreSQL 9.5
 - Java 1.8.0_152
