@@ -1,0 +1,383 @@
+@charset "UTF-8";
+
+body { #
+  background-color: hsla(41, 100%, 89%, 1);
+  background-color: hsla(9, 1%, 85%, 1);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  color: hsla(41, 100%, 35%, 1);
+}
+
+.container {
+  position: relative;
+  top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; #
+  height: 500px;
+}
+
+.form-login {
+  padding: 35px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px hsla(41, 100%, 65%, 1);
+  background-color: white;
+}
+
+.login input {
+  padding: 5px;
+  margin-left: 15px;
+  width: 165px;
+  font-size: 15px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  color: hsla(41, 100%, 35%, 1);
+  text-align: left;
+  font-weight: bold;
+}
+
+.login input:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+}
+
+.login button {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 15px;
+  width: 180px;
+  font-size: 18px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsla(199, 100%, 35%, 1);
+  border: 1px solid hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 95%, 1);
+}
+
+.login button:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 89%, 1);
+}
+
+.login button:hover {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 89%, 1);
+  cursor: pointer;
+}
+
+.form-cadastro {
+  padding: 35px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px hsla(41, 100%, 65%, 1);
+  background-color: white;
+}
+
+.cadastro input {
+  padding: 5px;
+  margin-left: 15px;
+  width: 165px;
+  font-size: 15px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  color: hsla(41, 100%, 35%, 1);
+  text-align: left;
+  font-weight: bold;
+}
+
+.cadastro input:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+}
+
+.cadastro #salvar {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 15px;
+  width: 180px;
+  font-size: 18px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsla(114, 100%, 35%, 1);
+  border: 1px solid hsla(114, 100%, 65%, 1);
+  background-color: hsla(114, 100%, 95%, 1);
+}
+
+.cadastro #salvar:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(114, 100%, 65%, 1);
+  background-color: hsla(114, 100%, 89%, 1);
+}
+
+.cadastro #salvar:hover {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(114, 100%, 65%, 1);
+  background-color: hsla(114, 100%, 89%, 1);
+  cursor: pointer;
+}
+
+.cadastro #cancelar {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 15px;
+  width: 180px;
+  font-size: 18px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsla(41, 100%, 35%, 1);
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  background-color: hsla(41, 100%, 95%, 1);
+}
+
+.cadastro #cancelar:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+  background-color: hsla(41, 100%, 89%, 1);
+}
+
+.cadastro #cancelar:hover {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+  background-color: hsla(41, 100%, 89%, 1);
+  cursor: pointer;
+}
+
+.cadastro #voltar {
+  margin-top: 15px;
+  height: 30px;
+  margin-left: 15px;
+  width: 180px;
+  font-size: 18px;
+  background-color: white;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  border: 1px solid hsla(125, 3%, 50%, 1);
+  background-color: hsla(43, 11%, 51%, 1);
+}
+
+.cadastro #voltar:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(125, 3%, 68%, 1);
+  background-color: hsla(125, 3%, 68%, 1);
+}
+
+.cadastro #voltar:hover {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(125, 3%, 68%, 1);
+  background-color: hsla(125, 3%, 68%, 1);
+  cursor: pointer;
+}
+
+.tabela-usuarios td {
+  width: 150px;
+  padding: 5px;
+}
+
+.tabela-usuarios tr:hover {
+  min-width: 50px;
+  padding: 5px;
+  background-color: hsla(41, 100%, 89%, 1);
+}
+
+th {
+  background-color: hsla(41, 100%, 44%, 1);
+  color: white;
+  text-transform: uppercase;
+  padding: 11px;
+  width: 65px;
+}
+
+.tabela-usuarios {
+  padding: 15px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px hsla(41, 100%, 65%, 1);
+  background-color: white;
+  margin-bottom: 55px;
+  text-align: center;
+}
+
+#id {
+  background-color: hsla(41, 100%, 44%, 1);
+  color: white;
+}
+
+#ibge {
+  background-color: hsla(41, 100%, 44%, 1);
+  color: white;
+}
+
+#nomeUser {
+  background-color: hsla(41, 100%, 44%, 1);
+  color: white;
+}
+
+#labelFoto {
+  border: 1px solid hsla(234, 100%, 56%, 1);
+  font-size: 15px;
+  background-color: hsla(234, 100%, 69%, 1);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+#labelFoto:hover {
+  cursor: pointer;
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(234, 100%, 65%, 1);
+}
+
+#labelFoto:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(234, 100%, 65%, 1);
+}
+
+#labelCurriculo {
+  border: 1px solid hsla(234, 100%, 56%, 1);
+  font-size: 15px;
+  background-color: hsla(234, 100%, 69%, 1);
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+#labelCurriculo:hover {
+  cursor: pointer;
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(234, 100%, 65%, 1);
+}
+
+#labelCurriculo:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(234, 100%, 65%, 1);
+}
+
+#file-name-foto {
+  margin-left: 15px;
+  font-size: 12px;
+  color: green;
+}
+
+#file-name-curriculo {
+  margin-left: 15px;
+  font-size: 12px;
+  color: green;
+}
+
+input[type='file'] {
+  display: none;
+}
+
+select {
+  padding: 5px;
+  margin-left: 15px;
+  width: 177px;
+  font-size: 15px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  color: hsla(41, 100%, 35%, 1);
+  text-align: left;
+  font-weight: bold;
+}
+
+select:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+}
+
+.mensagem {
+  position: absolute;
+  top: 85px;
+  color: hsla(0, 100%, 75%, 1);
+}
+
+.avatar {
+  border-radius: 50%;
+  border: 5px solid hsla(41, 100%, 44%, 1);
+}
+
+.radio {
+  padding: 5px !important;
+  margin-left: 10px !important;
+  width: 15px !important;
+  border: 1px solid hsla(41, 100%, 65%, 1) !important;
+  color: hsla(41, 100%, 35%, 1) !important;
+  text-align: left !important;
+  font-weight: bold !important;
+}
+
+.check {
+  padding: 5px !important;
+  margin-left: 10px !important;
+  width: 15px !important;
+  border: 1px solid hsla(41, 100%, 65%, 1) !important;
+  color: hsla(41, 100%, 35%, 1) !important;
+  text-align: left !important;
+  font-weight: bold !important;
+}
+
+::placeholder {
+  color: hsla(41, 100%, 64%, 1);
+  opacity: 1; /* Firefox */
+  font-size: 10px;
+  font-style: italic;
+}
+
+.descricao {
+  padding: 5px;
+  margin-left: 15px;
+  width: 165px;
+  font-size: 15px;
+  border: 1px solid hsla(41, 100%, 65%, 1);
+  color: hsla(41, 100%, 35%, 1);
+  text-align: left;
+  font-weight: bold;
+}
+
+.descricao:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(41, 100%, 65%, 1);
+}
+
+.pesquisar {
+  height: 30px;
+  margin-left: 15px;
+  width: 180px;
+  font-size: 18px;
+  padding: 5px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: hsla(199, 100%, 35%, 1);
+  border: 1px solid hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 95%, 1);
+}
+
+.pesquisar:focus {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 89%, 1);
+}
+
+.pesquisar:hover {
+  outline: none !important;
+  box-shadow: 0 0 5px hsla(199, 100%, 65%, 1);
+  background-color: hsla(199, 100%, 89%, 1);
+  cursor: pointer;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: hsla(41, 100%, 64%, 1);
+  font-size: 10px;
+  font-style: italic;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: hsla(41, 100%, 64%, 1);
+  font-size: 10px;
+  font-style: italic;
+}
